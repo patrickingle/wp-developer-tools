@@ -50,9 +50,9 @@ We make honorable mention to anyone who helps make this plugin better!
 
 # Contact 
 
-Support is provided at https://github.com/patrickingle/wp-developer-tools/issues. You will require a free account on github.com
+Support is provided at https://github.com/presspage2018/wp-developer-tools/issues. You will require a free account on github.com
 
-Please contact phkcorp2005@gmail.com or visit the above forum with questions, comments, or requests.
+Please contact presspage.entertainment@gmail.com or visit the above forum with questions, comments, or requests.
 
 # Frequently Asked Questions 
 

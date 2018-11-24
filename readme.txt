@@ -3,8 +3,8 @@ Contributors: phkcorp2005
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9674139
 Tags: php quick profiler, wordpress developer tools
 Requires at least: 2.8.6
-Tested up to: 4.6
-Stable tag: 1.0.1
+Tested up to: 4.9.8
+Stable tag: 4.9.8
 
 A needed plugin to help developers optimize their installation of wordpress. plugins and themes.
 
@@ -44,9 +44,9 @@ We make honorable mention to anyone who helps make this plugin better!
 
 == Contact ==
 
-Support is provided at https://github.com/patrickingle/wp-developer-tools/issues. You will require a free account on github.com
+Support is provided at https://github.com/presspage2018/wp-developer-tools/issues. You will require a free account on github.com
 
-Please contact phkcorp2005@gmail.com or visit the above forum with questions, comments, or requests.
+Please contact presspage.entertainment@gmail.com or visit the above forum with questions, comments, or requests.
 
 == Frequently Asked Questions ==
 

@@ -1,15 +1,15 @@
 <?php
 /**
  * @package WP Developer Tools
- * @author PHK Corporation
+ * @author PressPage Entertainment Inc
  */
 
 /*
 Plugin Name: WP Developer Tools
 Plugin URI: https://wordpress.org/plugins/wp-developer-tools/
 Description: Collection of useful developer tools
-Author: PHK Corporation
-Author URI: http://www.phkcorp.com
+Author: PressPage Entertainment Inc.
+Author URI: https://presspage.info
 Version: 1.1
 License: GPLv2
 */
