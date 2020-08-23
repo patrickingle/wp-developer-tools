@@ -163,7 +163,7 @@ class PhpQuickProfiler {
 	     HELPER FUNCTIONS TO FORMAT DATA
 	-------------------------------------------*/
 	
-	function getMicroTime() {
+	static public function getMicroTime() {
 		$time = microtime();
 		$time = explode(' ', $time);
 		return $time[1] + $time[0];

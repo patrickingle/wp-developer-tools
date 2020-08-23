@@ -3,8 +3,8 @@ Contributors: phkcorp2005
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9674139
 Tags: php quick profiler, wordpress developer tools
 Requires at least: 2.8.6
-Tested up to: 4.9.8
-Stable tag: 4.9.8
+Tested up to: 5.5
+Stable tag: 1.1.1
 
 A needed plugin to help developers optimize their installation of wordpress. plugins and themes.
 
@@ -56,6 +56,10 @@ Please do not be afraid of asking questions?<br>
 
 
 == Changelog ==
+= 1.1.1 =
+* Fixes: Methods with the same name as their class will not be constructors
+* Remove role_has_cap 
+
 = 1.1 =
 * Change to use MySQLi extension
 * Change user capability check for activate_plugins

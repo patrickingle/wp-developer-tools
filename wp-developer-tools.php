@@ -8,9 +8,9 @@
 Plugin Name: WP Developer Tools
 Plugin URI: https://wordpress.org/plugins/wp-developer-tools/
 Description: Collection of useful developer tools
-Author: PressPage Entertainment Inc.
-Author URI: https://presspage.info
-Version: 1.1
+Author: PressPage Entertainment Inc. DBA PINGLEWARE
+Author URI: https://pingleware.work
+Version: 1.1.1
 License: GPLv2
 */
 
@@ -171,7 +171,6 @@ if (!class_exists( 'WP_Developer_Tools' ))
 				'login_headertitle',
 				'login_headerurl',
 				'login_message',
-				'role_has_cap',
 				'sanitize_user',
 				'the_author',
 				'the_author_email',
@@ -297,7 +296,7 @@ if (!class_exists( 'WP_Developer_Tools' ))
 		);
 
 		// constructor
-		function WP_Developer_Tools()
+		function __construct()
 		{
 			if ( function_exists( 'register_activation_hook' ) )
 				register_activation_hook(__FILE__, array( &$this, 'activate' ) );
@@ -382,10 +381,10 @@ if (!class_exists( 'WP_Developer_Tools' ))
 		{
 			global $wp_roles;
                         
-                        if (!function_exists('mysqli_connect')) {
-                            deactivate_plugins(basename(__FILE__)); 
-                            wp_die('Missing MySQLi extension');
-                        }
+			if (!function_exists('mysqli_connect')) {
+				deactivate_plugins(basename(__FILE__)); 
+				wp_die('Missing MySQLi extension');
+			}
 
 			add_option('wpdt_quick_profiler',FALSE);
 			add_option('save_log_predefined_php',FALSE);
@@ -1600,12 +1599,6 @@ if (!class_exists( 'WP_Developer_Tools' ))
 	}
 	function wpdt_login_message($content) {
 		Console::log($content,'login_message');
-		Console::logMemory();
-		Console::logSpeed();
-		return $content;
-	}
-	function wpdt_role_has_cap($content) {
-		Console::log($content,'role_has_cap');
 		Console::logMemory();
 		Console::logSpeed();
 		return $content;
